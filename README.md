@@ -61,4 +61,4 @@ git push origin main
 Merci à **Akieny Academy** pour la qualité de la formation en développement web et les exercices pratiques qui m'aident à progresser.
 
 # Auteur
-ceti slow
+**cetislow**
