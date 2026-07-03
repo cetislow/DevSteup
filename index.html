@@ -19,23 +19,23 @@
 
         <!-- Photo de profil -->
         <section>
-            <img src="image/photoprofil.jpg" alt="Photo de profil" width="200">
+            <img id="photo" src="image/photoprofil.jpg" alt="Photo de profil" width="200">
         </section>
 
         <!-- Biographie -->
-        <section>
+        <section class="card">
             <h2>À propos de moi</h2>
-            <p>
-                Je m'appelle Louamba Ceti-Delaure. Je suis étudiant en Génie Informatique à l'université ENIA2.0 et
+            <p class="moi">
+                Je m'appelle <strong>Louamba Ceti-Delaure</strong>. Je suis étudiant en Génie Informatique à l'université ENIA2.0 et
                 passionné par le développement web. <br> J'apprends actuellement HTML,
                 CSS et JavaScript chez Akieni Academy afin de devenir développeur web  .
             </p>
         </section>
 
         <!-- Compétences -->
-        <section>
+        <section class="card">
             <h2>Mes compétences</h2>
-            <ul>
+            <ul class="ul">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Git</li>
@@ -45,7 +45,7 @@
         </section>
 
         <!-- Formation -->
-        <section>
+        <section class="card">
             <h2>Ma formation</h2>
 
             <dl>
@@ -53,37 +53,41 @@
                 <dd>Formation Développement Web - Akieni Academy</dd>
 
                 <dt>2026</dt>
-                <dd>Études en Télécommunications</dd>
+                <dd>Études en Télécommunications - MGLAB</dd>
 
                 <dt>2025</dt>
-                <dd>Formation en Bureatique</dd>
+                <dd>Formation en Bureatique - NAMS</dd>
             </dl>
         </section>
 
         <!-- Réseaux sociaux -->
-        <section>
+        <section class="card">
             <h2>Mes réseaux sociaux</h2>
-
-           <li><a href="https://www.facebook.com/profile.php?id=61562583917581" target="_blank">facebook</a></li>
-             <li><a href="https://www.instagram.com/king__slow?igsh=amp5eXhtMXcxaWs2" target="_blank">instagram</a></li>
-               <li><a href="https://cg.linkedin.com/in/delaure-louamba-795528415" target="_blank">linkedin</a></li>
-                 <li><a href="https://github.com/cetislow/DevSteup" target="_blank">GitHub</a></li>
+             <div class="reseaux">
+              <ul class="ul">
+                <li><a href="https://www.facebook.com/profile.php?id=61562583917581" target="_blank">facebook</a></li>
+                <li><a href="https://www.instagram.com/king__slow?igsh=amp5eXhtMXcxaWs2" target="_blank">instagram</a></li>
+                <li><a href="https://cg.linkedin.com/in/delaure-louamba-795528415" target="_blank">linkedin</a></li>
+                <li><a href="https://github.com/cetislow/DevSteup" target="_blank">GitHub</a></li>
+             </ul>
+             </div>
+             
         </section>
 
         <!-- Formulaire -->
-        <section>
+        <section class="card">
             <h2>Contactez-moi</h2>
 
             <form>
 
                 <label for="nom">Nom :</label><br>
-                <input type="text" id="nom" name="nom"><br><br>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom"><br><br>
 
                 <label for="email">Email :</label><br>
-                <input type="email" id="email" name="email"><br><br>
+                <input type="email" id="email" name="email" placeholder="Votre adresse email"><br><br>
 
                 <label for="message">Message :</label><br>
-                <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+                <textarea id="message" name="message" rows="5" cols="30" placeholder="Ecrivez votre message"></textarea><br><br>
 
                 <button type="submit">Envoyer</button>
 
